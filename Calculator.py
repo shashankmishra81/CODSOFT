@@ -3,6 +3,8 @@ import tkinter.messagebox
 from tkinter.constants import SUNKEN
 
 window = tk.Tk()
+p1 = tk.PhotoImage(file = 'Calculator.png')
+window.iconphoto(False, p1)
 window.title("Calculator")
 frame = tk.Frame(master=window, bg="white", padx=10)
 frame.pack()
